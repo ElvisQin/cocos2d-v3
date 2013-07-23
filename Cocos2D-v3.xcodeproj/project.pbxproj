@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69A4415179ECA6500BAF6DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4414179ECA6500BAF6DA /* UIKit.framework */; };
+		A69A4417179ECA6500BAF6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4416179ECA6500BAF6DA /* Foundation.framework */; };
+		A69A4419179ECA6500BAF6DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4418179ECA6500BAF6DA /* CoreGraphics.framework */; };
+		A69A441B179ECA6500BAF6DA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A441A179ECA6500BAF6DA /* GLKit.framework */; };
+		A69A441D179ECA6500BAF6DA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A441C179ECA6500BAF6DA /* OpenGLES.framework */; };
+		A69A4423179ECA6500BAF6DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69A4421179ECA6500BAF6DA /* InfoPlist.strings */; };
+		A69A4425179ECA6500BAF6DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A4424179ECA6500BAF6DA /* main.m */; };
+		A69A4429179ECA6500BAF6DA /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A4428179ECA6500BAF6DA /* CCAppDelegate.m */; };
+		A69A442B179ECA6500BAF6DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A69A442A179ECA6500BAF6DA /* Default.png */; };
+		A69A442D179ECA6500BAF6DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A69A442C179ECA6500BAF6DA /* Default@2x.png */; };
+		A69A442F179ECA6500BAF6DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A69A442E179ECA6500BAF6DA /* Default-568h@2x.png */; };
+		A69A4431179ECA6500BAF6DA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A69A4430179ECA6500BAF6DA /* Shader.fsh */; };
+		A69A4433179ECA6500BAF6DA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A69A4432179ECA6500BAF6DA /* Shader.vsh */; };
+		A69A4436179ECA6500BAF6DA /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A4435179ECA6500BAF6DA /* CCViewController.m */; };
+		A69A4439179ECA6500BAF6DA /* CCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */; };
+		A69A443C179ECA6500BAF6DA /* CCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A69A4411179ECA6500BAF6DA /* Cocos2D-v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocos2D-v3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69A4414179ECA6500BAF6DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A69A4416179ECA6500BAF6DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A69A4418179ECA6500BAF6DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A69A441A179ECA6500BAF6DA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A69A441C179ECA6500BAF6DA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A69A4420179ECA6500BAF6DA /* Cocos2D-v3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocos2D-v3-Info.plist"; sourceTree = "<group>"; };
+		A69A4422179ECA6500BAF6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69A4424179ECA6500BAF6DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69A4426179ECA6500BAF6DA /* Cocos2D-v3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocos2D-v3-Prefix.pch"; sourceTree = "<group>"; };
+		A69A4427179ECA6500BAF6DA /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		A69A4428179ECA6500BAF6DA /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		A69A442A179ECA6500BAF6DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A69A442C179ECA6500BAF6DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A69A442E179ECA6500BAF6DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A69A4430179ECA6500BAF6DA /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		A69A4432179ECA6500BAF6DA /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		A69A4434179ECA6500BAF6DA /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		A69A4435179ECA6500BAF6DA /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		A69A4438179ECA6500BAF6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPhone.xib; sourceTree = "<group>"; };
+		A69A443B179ECA6500BAF6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69A440E179ECA6500BAF6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A4415179ECA6500BAF6DA /* UIKit.framework in Frameworks */,
+				A69A4417179ECA6500BAF6DA /* Foundation.framework in Frameworks */,
+				A69A4419179ECA6500BAF6DA /* CoreGraphics.framework in Frameworks */,
+				A69A441B179ECA6500BAF6DA /* GLKit.framework in Frameworks */,
+				A69A441D179ECA6500BAF6DA /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69A4408179ECA6500BAF6DA = {
+			isa = PBXGroup;
+			children = (
+				A69A441E179ECA6500BAF6DA /* Cocos2D-v3 */,
+				A69A4413179ECA6500BAF6DA /* Frameworks */,
+				A69A4412179ECA6500BAF6DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69A4412179ECA6500BAF6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69A4411179ECA6500BAF6DA /* Cocos2D-v3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69A4413179ECA6500BAF6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69A4414179ECA6500BAF6DA /* UIKit.framework */,
+				A69A4416179ECA6500BAF6DA /* Foundation.framework */,
+				A69A4418179ECA6500BAF6DA /* CoreGraphics.framework */,
+				A69A441A179ECA6500BAF6DA /* GLKit.framework */,
+				A69A441C179ECA6500BAF6DA /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69A441E179ECA6500BAF6DA /* Cocos2D-v3 */ = {
+			isa = PBXGroup;
+			children = (
+				A69A4427179ECA6500BAF6DA /* CCAppDelegate.h */,
+				A69A4428179ECA6500BAF6DA /* CCAppDelegate.m */,
+				A69A4430179ECA6500BAF6DA /* Shader.fsh */,
+				A69A4432179ECA6500BAF6DA /* Shader.vsh */,
+				A69A4434179ECA6500BAF6DA /* CCViewController.h */,
+				A69A4435179ECA6500BAF6DA /* CCViewController.m */,
+				A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */,
+				A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */,
+				A69A441F179ECA6500BAF6DA /* Supporting Files */,
+			);
+			path = "Cocos2D-v3";
+			sourceTree = "<group>";
+		};
+		A69A441F179ECA6500BAF6DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69A4420179ECA6500BAF6DA /* Cocos2D-v3-Info.plist */,
+				A69A4421179ECA6500BAF6DA /* InfoPlist.strings */,
+				A69A4424179ECA6500BAF6DA /* main.m */,
+				A69A4426179ECA6500BAF6DA /* Cocos2D-v3-Prefix.pch */,
+				A69A442A179ECA6500BAF6DA /* Default.png */,
+				A69A442C179ECA6500BAF6DA /* Default@2x.png */,
+				A69A442E179ECA6500BAF6DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69A4410179ECA6500BAF6DA /* Cocos2D-v3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69A443F179ECA6500BAF6DA /* Build configuration list for PBXNativeTarget "Cocos2D-v3" */;
+			buildPhases = (
+				A69A440D179ECA6500BAF6DA /* Sources */,
+				A69A440E179ECA6500BAF6DA /* Frameworks */,
+				A69A440F179ECA6500BAF6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocos2D-v3";
+			productName = "Cocos2D-v3";
+			productReference = A69A4411179ECA6500BAF6DA /* Cocos2D-v3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69A4409179ECA6500BAF6DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lars Birkemose";
+			};
+			buildConfigurationList = A69A440C179ECA6500BAF6DA /* Build configuration list for PBXProject "Cocos2D-v3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69A4408179ECA6500BAF6DA;
+			productRefGroup = A69A4412179ECA6500BAF6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69A4410179ECA6500BAF6DA /* Cocos2D-v3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69A440F179ECA6500BAF6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A4423179ECA6500BAF6DA /* InfoPlist.strings in Resources */,
+				A69A442B179ECA6500BAF6DA /* Default.png in Resources */,
+				A69A442D179ECA6500BAF6DA /* Default@2x.png in Resources */,
+				A69A442F179ECA6500BAF6DA /* Default-568h@2x.png in Resources */,
+				A69A4431179ECA6500BAF6DA /* Shader.fsh in Resources */,
+				A69A4433179ECA6500BAF6DA /* Shader.vsh in Resources */,
+				A69A4439179ECA6500BAF6DA /* CCViewController_iPhone.xib in Resources */,
+				A69A443C179ECA6500BAF6DA /* CCViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69A440D179ECA6500BAF6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A4425179ECA6500BAF6DA /* main.m in Sources */,
+				A69A4429179ECA6500BAF6DA /* CCAppDelegate.m in Sources */,
+				A69A4436179ECA6500BAF6DA /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69A4421179ECA6500BAF6DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A4422179ECA6500BAF6DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A4438179ECA6500BAF6DA /* en */,
+			);
+			name = CCViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A443B179ECA6500BAF6DA /* en */,
+			);
+			name = CCViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69A443D179ECA6500BAF6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69A443E179ECA6500BAF6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69A4440179ECA6500BAF6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocos2D-v3/Cocos2D-v3-Prefix.pch";
+				INFOPLIST_FILE = "Cocos2D-v3/Cocos2D-v3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69A4441179ECA6500BAF6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocos2D-v3/Cocos2D-v3-Prefix.pch";
+				INFOPLIST_FILE = "Cocos2D-v3/Cocos2D-v3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69A440C179ECA6500BAF6DA /* Build configuration list for PBXProject "Cocos2D-v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A443D179ECA6500BAF6DA /* Debug */,
+				A69A443E179ECA6500BAF6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69A443F179ECA6500BAF6DA /* Build configuration list for PBXNativeTarget "Cocos2D-v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A4440179ECA6500BAF6DA /* Debug */,
+				A69A4441179ECA6500BAF6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69A4409179ECA6500BAF6DA /* Project object */;
+}
