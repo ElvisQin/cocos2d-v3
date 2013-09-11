@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60ED16C179FE94100E1FA73 /* CCScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A60ED16B179FE94100E1FA73 /* CCScene.m */; };
+		A60ED16F179FE99100E1FA73 /* CCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A60ED16E179FE99100E1FA73 /* CCNode.m */; };
+		A60ED175179FED8B00E1FA73 /* CCGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60ED174179FED8B00E1FA73 /* CCGLViewController.m */; };
+		A60ED178179FFBAC00E1FA73 /* CCScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = A60ED177179FFBAC00E1FA73 /* CCScheduler.m */; };
+		A6112A4917B2E520007A0BE8 /* CCSchedulerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A6112A4817B2E520007A0BE8 /* CCSchedulerEntry.m */; };
+		A64790C917BADD2600594756 /* CCActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A64790C817BADD2600594756 /* CCActionManager.m */; };
+		A64790CC17BADDE400594756 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A64790CB17BADDE400594756 /* CCAction.m */; };
+		A64BB15C179ECE920067F16E /* CCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A64BB15B179ECE920067F16E /* CCGame.m */; };
 		A69A4415179ECA6500BAF6DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4414179ECA6500BAF6DA /* UIKit.framework */; };
 		A69A4417179ECA6500BAF6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4416179ECA6500BAF6DA /* Foundation.framework */; };
 		A69A4419179ECA6500BAF6DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A4418179ECA6500BAF6DA /* CoreGraphics.framework */; };
@@ -21,11 +29,28 @@
 		A69A4431179ECA6500BAF6DA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A69A4430179ECA6500BAF6DA /* Shader.fsh */; };
 		A69A4433179ECA6500BAF6DA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A69A4432179ECA6500BAF6DA /* Shader.vsh */; };
 		A69A4436179ECA6500BAF6DA /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A4435179ECA6500BAF6DA /* CCViewController.m */; };
-		A69A4439179ECA6500BAF6DA /* CCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */; };
-		A69A443C179ECA6500BAF6DA /* CCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */; };
+		A69ED0B217B2623F00A1107E /* CCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A69ED0B117B2623F00A1107E /* CCTimer.m */; };
+		A6A2AE2C17A59EB200FC4FB1 /* CCRenderNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2AE2B17A59EB200FC4FB1 /* CCRenderNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60ED16A179FE94100E1FA73 /* CCScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCScene.h; path = "Cocos2D-v3/CCScene.h"; sourceTree = "<group>"; };
+		A60ED16B179FE94100E1FA73 /* CCScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCScene.m; path = "Cocos2D-v3/CCScene.m"; sourceTree = "<group>"; };
+		A60ED16D179FE99100E1FA73 /* CCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNode.h; path = "Cocos2D-v3/CCNode.h"; sourceTree = "<group>"; };
+		A60ED16E179FE99100E1FA73 /* CCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNode.m; path = "Cocos2D-v3/CCNode.m"; sourceTree = "<group>"; };
+		A60ED173179FED8B00E1FA73 /* CCGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGLViewController.h; path = "Cocos2D-v3/CCGLViewController.h"; sourceTree = "<group>"; };
+		A60ED174179FED8B00E1FA73 /* CCGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGLViewController.m; path = "Cocos2D-v3/CCGLViewController.m"; sourceTree = "<group>"; };
+		A60ED176179FFBAC00E1FA73 /* CCScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCScheduler.h; path = "Cocos2D-v3/CCScheduler.h"; sourceTree = "<group>"; };
+		A60ED177179FFBAC00E1FA73 /* CCScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCScheduler.m; path = "Cocos2D-v3/CCScheduler.m"; sourceTree = "<group>"; };
+		A6112A4717B2E520007A0BE8 /* CCSchedulerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSchedulerEntry.h; path = "Cocos2D-v3/CCSchedulerEntry.h"; sourceTree = "<group>"; };
+		A6112A4817B2E520007A0BE8 /* CCSchedulerEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSchedulerEntry.m; path = "Cocos2D-v3/CCSchedulerEntry.m"; sourceTree = "<group>"; };
+		A64790C717BADD2600594756 /* CCActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCActionManager.h; path = "Cocos2D-v3/CCActionManager.h"; sourceTree = "<group>"; };
+		A64790C817BADD2600594756 /* CCActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCActionManager.m; path = "Cocos2D-v3/CCActionManager.m"; sourceTree = "<group>"; };
+		A64790CA17BADDE400594756 /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = "Cocos2D-v3/CCAction.h"; sourceTree = "<group>"; };
+		A64790CB17BADDE400594756 /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCAction.m; path = "Cocos2D-v3/CCAction.m"; sourceTree = "<group>"; };
+		A64BB15A179ECE920067F16E /* CCGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGame.h; path = "Cocos2D-v3/CCGame.h"; sourceTree = "<group>"; };
+		A64BB15B179ECE920067F16E /* CCGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGame.m; path = "Cocos2D-v3/CCGame.m"; sourceTree = "<group>"; };
+		A64BB15E179ED92C0067F16E /* CCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCMacro.h; path = "Cocos2D-v3/CCMacro.h"; sourceTree = "<group>"; };
 		A69A4411179ECA6500BAF6DA /* Cocos2D-v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocos2D-v3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69A4414179ECA6500BAF6DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A69A4416179ECA6500BAF6DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,8 +70,11 @@
 		A69A4432179ECA6500BAF6DA /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		A69A4434179ECA6500BAF6DA /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		A69A4435179ECA6500BAF6DA /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
-		A69A4438179ECA6500BAF6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPhone.xib; sourceTree = "<group>"; };
-		A69A443B179ECA6500BAF6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPad.xib; sourceTree = "<group>"; };
+		A69A45F7179ECC2900BAF6DA /* Cocos2D-v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Cocos2D-v3.h"; path = "Cocos2D-v3/Cocos2D-v3.h"; sourceTree = "<group>"; };
+		A69ED0B017B2623F00A1107E /* CCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTimer.h; path = "Cocos2D-v3/CCTimer.h"; sourceTree = "<group>"; };
+		A69ED0B117B2623F00A1107E /* CCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTimer.m; path = "Cocos2D-v3/CCTimer.m"; sourceTree = "<group>"; };
+		A6A2AE2A17A59EB200FC4FB1 /* CCRenderNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCRenderNode.h; path = "Cocos2D-v3/CCRenderNode.h"; sourceTree = "<group>"; };
+		A6A2AE2B17A59EB200FC4FB1 /* CCRenderNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCRenderNode.m; path = "Cocos2D-v3/CCRenderNode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +96,11 @@
 		A69A4408179ECA6500BAF6DA = {
 			isa = PBXGroup;
 			children = (
-				A69A441E179ECA6500BAF6DA /* Cocos2D-v3 */,
-				A69A4413179ECA6500BAF6DA /* Frameworks */,
 				A69A4412179ECA6500BAF6DA /* Products */,
+				A69A4413179ECA6500BAF6DA /* Frameworks */,
+				A69A441F179ECA6500BAF6DA /* Supporting Files */,
+				A69A45F5179ECBD400BAF6DA /* Resources */,
+				A69A441E179ECA6500BAF6DA /* Cocos2D-v3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,15 +127,13 @@
 		A69A441E179ECA6500BAF6DA /* Cocos2D-v3 */ = {
 			isa = PBXGroup;
 			children = (
+				A69A45F6179ECBE500BAF6DA /* Core */,
 				A69A4427179ECA6500BAF6DA /* CCAppDelegate.h */,
 				A69A4428179ECA6500BAF6DA /* CCAppDelegate.m */,
 				A69A4430179ECA6500BAF6DA /* Shader.fsh */,
 				A69A4432179ECA6500BAF6DA /* Shader.vsh */,
 				A69A4434179ECA6500BAF6DA /* CCViewController.h */,
 				A69A4435179ECA6500BAF6DA /* CCViewController.m */,
-				A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */,
-				A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */,
-				A69A441F179ECA6500BAF6DA /* Supporting Files */,
 			);
 			path = "Cocos2D-v3";
 			sourceTree = "<group>";
@@ -122,6 +150,43 @@
 				A69A442E179ECA6500BAF6DA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = "Cocos2D-v3";
+			sourceTree = "<group>";
+		};
+		A69A45F5179ECBD400BAF6DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A69A45F6179ECBE500BAF6DA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A69A45F7179ECC2900BAF6DA /* Cocos2D-v3.h */,
+				A64BB15E179ED92C0067F16E /* CCMacro.h */,
+				A64BB15A179ECE920067F16E /* CCGame.h */,
+				A64BB15B179ECE920067F16E /* CCGame.m */,
+				A60ED173179FED8B00E1FA73 /* CCGLViewController.h */,
+				A60ED174179FED8B00E1FA73 /* CCGLViewController.m */,
+				A60ED16A179FE94100E1FA73 /* CCScene.h */,
+				A60ED16B179FE94100E1FA73 /* CCScene.m */,
+				A6112A4717B2E520007A0BE8 /* CCSchedulerEntry.h */,
+				A6112A4817B2E520007A0BE8 /* CCSchedulerEntry.m */,
+				A60ED176179FFBAC00E1FA73 /* CCScheduler.h */,
+				A60ED177179FFBAC00E1FA73 /* CCScheduler.m */,
+				A69ED0B017B2623F00A1107E /* CCTimer.h */,
+				A69ED0B117B2623F00A1107E /* CCTimer.m */,
+				A64790CA17BADDE400594756 /* CCAction.h */,
+				A64790CB17BADDE400594756 /* CCAction.m */,
+				A64790C717BADD2600594756 /* CCActionManager.h */,
+				A64790C817BADD2600594756 /* CCActionManager.m */,
+				A6A2AE2A17A59EB200FC4FB1 /* CCRenderNode.h */,
+				A6A2AE2B17A59EB200FC4FB1 /* CCRenderNode.m */,
+				A60ED16D179FE99100E1FA73 /* CCNode.h */,
+				A60ED16E179FE99100E1FA73 /* CCNode.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +247,6 @@
 				A69A442F179ECA6500BAF6DA /* Default-568h@2x.png in Resources */,
 				A69A4431179ECA6500BAF6DA /* Shader.fsh in Resources */,
 				A69A4433179ECA6500BAF6DA /* Shader.vsh in Resources */,
-				A69A4439179ECA6500BAF6DA /* CCViewController_iPhone.xib in Resources */,
-				A69A443C179ECA6500BAF6DA /* CCViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +260,16 @@
 				A69A4425179ECA6500BAF6DA /* main.m in Sources */,
 				A69A4429179ECA6500BAF6DA /* CCAppDelegate.m in Sources */,
 				A69A4436179ECA6500BAF6DA /* CCViewController.m in Sources */,
+				A64BB15C179ECE920067F16E /* CCGame.m in Sources */,
+				A60ED16C179FE94100E1FA73 /* CCScene.m in Sources */,
+				A60ED16F179FE99100E1FA73 /* CCNode.m in Sources */,
+				A60ED175179FED8B00E1FA73 /* CCGLViewController.m in Sources */,
+				A60ED178179FFBAC00E1FA73 /* CCScheduler.m in Sources */,
+				A6A2AE2C17A59EB200FC4FB1 /* CCRenderNode.m in Sources */,
+				A69ED0B217B2623F00A1107E /* CCTimer.m in Sources */,
+				A6112A4917B2E520007A0BE8 /* CCSchedulerEntry.m in Sources */,
+				A64790C917BADD2600594756 /* CCActionManager.m in Sources */,
+				A64790CC17BADDE400594756 /* CCAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,22 +282,6 @@
 				A69A4422179ECA6500BAF6DA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A69A4437179ECA6500BAF6DA /* CCViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A69A4438179ECA6500BAF6DA /* en */,
-			);
-			name = CCViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A69A443A179ECA6500BAF6DA /* CCViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A69A443B179ECA6500BAF6DA /* en */,
-			);
-			name = CCViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,9 +348,11 @@
 		A69A4440179ECA6500BAF6DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cocos2D-v3/Cocos2D-v3-Prefix.pch";
 				INFOPLIST_FILE = "Cocos2D-v3/Cocos2D-v3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,9 +361,11 @@
 		A69A4441179ECA6500BAF6DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cocos2D-v3/Cocos2D-v3-Prefix.pch";
 				INFOPLIST_FILE = "Cocos2D-v3/Cocos2D-v3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -329,6 +390,7 @@
 				A69A4441179ECA6500BAF6DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
